@@ -1,3 +1,4 @@
+/*Core style*/
 body{
     font-family:sans-serif;
 }
@@ -5,6 +6,46 @@ body{
     width:1140px;
     margin: 0 auto;
 }
+.clearfix{
+    clear:both;
+}
+.to-uppercase{
+    text-transform:uppercase;
+}
+.section-subtitle{
+    letter-spacing: 2px;
+    font-weight:500;
+    margin-bottom:10px;
+    color: #797979;
+    text-transform:uppercase;
+}
+.section-title{
+    font-size:42px;
+    font-weight:700;
+    text-transform:capitalize;
+    color: #05364D;
+    margin-top:10px;
+}
+.blur-line{
+    display:inline-block;
+    width:80px;
+    margin-left:5px;
+    height:4px;
+    background-color: rgba(237,35,159,0.6);
+    filter:blur(4px);
+    border-radius: 4px;
+}
+.button{
+    border:none;
+    background-color: #1C44E4;
+    color:white;
+    font-weight:500;
+    font-size:14px;
+    padding:20px 40px;
+    cursor:pointer;
+    border-radius:5px;
+}
+/*Main header*/
 .main-header__brand{
     display:inline-block;
     vertical-align:middle;
@@ -33,4 +74,91 @@ body{
 }
 .main-navigation__item.active a{
     color: #efb6df;
+}
+/*Main section*/
+.main-section{
+    padding:100px 30px;
+}
+.main-section > div{
+    width:50%;
+    float:left;
+}
+.main-section__image{
+    text-align:right;
+}
+.main-section__welcome{
+    font-size:16px;
+    font-weight:400;
+    margin-bottom:20px;
+    letter-spacing: 2px;
+    color:#797979;
+}
+.main-section__introduction{
+    margin-top:20px;
+    font-size:60px;
+    font-weight:500;
+    color:#05364E;
+    margin-bottom:20px;
+}
+.main-section__position{
+    font-size:24px;
+    font-weight:400;
+    color:#05364E;
+    margin-bottom:20px;
+}
+.main-section__social-networks a{
+    color: #8FA1AA;
+    text-decoration:none;
+    font-size:20px;
+    margin-right:16px;
+    display:inline-block;
+    cursor:pointer;
+}
+.main-section__social-networks a:hover i{
+    color: #1C44E4;
+}
+.main-section__action{
+    margin-top:30px;
+}
+/*Statistics*/
+.statistics{
+    padding:100px;
+}
+.statistics__item{
+    display:inline-block;
+    background-color: #F8FAFF;
+    text-align:center;
+    padding:5px 10px;
+    width:150px;
+}
+.statistics__number{
+    margin-bottom:5px;
+    color:#1C44E4;
+    font-size:27px;
+}
+.statistics__title{
+    font-size:16px;
+    font-weight:300;
+    color:#797979;
+}
+/*About me section*/
+.about-me{
+    padding:100px 0px;
+}
+.about-me > div{
+    width:50%;
+    float:left;
+}
+.about-me__image img{
+    width:90%;
+}
+.about-me__description{
+    font-size:16px;
+    color: #888;
+    letter-spacing: 1px;
+    margin-top:10px;
+    line-height: 27px;
+}
+.about-me__action{
+    margin-top:40px;
 }
