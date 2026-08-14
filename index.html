@@ -9,8 +9,8 @@
 </head>
 <body>
     <!--Header section-->
-   <div class="conteiner">
-         <header class="main-header">
+      <header class="main-header">
+        <div class="conteiner">
             <div class="main-header__brand">
                 <a href="index.html">
                     <img src="images/main-logo.png" alt="Logo">
@@ -38,8 +38,8 @@
                     </li>
                 </ul>
             </nav>
-         </header>
-   </div>
+          </div>
+     </header>
     <!--/Header section-->
 
     <!--Main section-->
@@ -181,7 +181,10 @@
     <!--Clients section-->
     <div class="conteiner">
         <section id="clients" class="clients">
-            <h5 class="section-subtitle">Mening mijozlarim</h5>
+            <h5 class="section-subtitle">
+                Mening mijozlarim
+                <span class="blur-line"></span>
+            </h5>
             <h2 class="section-title">
                 Hurmatli mijozlarim <br>
                 men haqimda
@@ -213,9 +216,67 @@
     <!--/Clients section-->
 
     <!--Portfolio section-->
-    <section id="portfolio">
-        <h1>Portfolio</h1>
-    </section>
+    <div class="conteiner">
+        <section id="portfolio" class="portfolio">
+             <div class="section-subtitle">
+                Mening ishlarim
+                <span class="blur-line"></span>
+            </div>
+             <div class="section-title">
+                Mening oxrigi <br>
+                ishlarimni ko'ring
+             </div>
+             <ul class="portfolio-filters">
+                <li class="active">
+                    Hammasi
+                </li>
+                <li>
+                    Mashxurlari
+                </li>
+                <li>
+                    Oxrigilari
+                </li>
+             </ul>
+             <div class="portfolio-items">
+                <div class="portfolio-item portfolio-item1">
+                    <img src="images/portfolio-1.jpg" alt="Portfolio image 1" class="portfolio-item__image">
+                    <div class="portfolio-item__overlay"></div>
+                    <div class="portfolio-item__info">
+                        <h4>
+                            <a href="#">Portfolio item 1</a>
+                        </h4>
+                        <p>
+                            Ishim haqida
+                        </p>
+                    </div>
+                </div>
+                <div class="portfolio-item portfolio-item2">
+                    <img src="images/portfolio-2.jpg" alt="Portfolio image 2" class="portfolio-item__image">
+                    <div class="portfolio-item__overlay"></div>
+                    <div class="portfolio-item__info">
+                        <h4>
+                            <a href="#">Portfolio item 2</a>
+                        </h4>
+                        <p>
+                            Ishim haqida
+                        </p>
+                    </div>
+                </div>
+                <div class="portfolio-item portfolio-item3">
+                    <img src="images/portfolio-3.jpg" alt="Portfolio image 3" class="portfolio-item__image">
+                    <div class="portfolio-item__overlay"></div>
+                    <div class="portfolio-item__info">
+                        <h4>
+                            <a href="#">Portfolio item 3</a>
+                        </h4>
+                        <p>
+                            Ishim haqida
+                        </p>
+                    </div>
+                </div>
+             </div>
+        </section>
+    </div>
     <!--/Portfolio section-->
 
     <!--Partners section-->
