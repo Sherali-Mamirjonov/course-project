@@ -278,6 +278,8 @@ body{
     display: inline-block;
     cursor:pointer;
     width:50%;
+    padding: 10px;
+    box-sizing: border-box;
 }
 .portfolio-item1{
     padding-left:0;
