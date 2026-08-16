@@ -155,7 +155,9 @@ body{
 }
 .statistics__number{
     margin-bottom:5px;
-    color:#1C44E4;
+    background: linear-gradient(90deg, #1345e6 0%, #ed239f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size:27px;
 }
 .statistics__title{
