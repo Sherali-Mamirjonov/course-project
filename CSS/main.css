@@ -87,6 +87,12 @@ body{
     color: #efb6df;
 }
 /*Main section*/
+.main-banner{
+    background: url("../images/main-banner.png") no-repeat top center;
+    background-position:center;
+    background-size:cover;
+    min-height:890px;
+}
 .main-section{
     padding:100px 30px;
 }
