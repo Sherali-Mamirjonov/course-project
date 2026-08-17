@@ -53,11 +53,15 @@
                 Men bilan bog'laning
             </div>
             <form action="/server.php" method="GET">
-                <textarea rows="20" placeholder="Xabaringizni kiriting" name="message"></textarea>
-                <input type="text" placeholder="Ismingizni kiriting" name="firstname">
-                <input type="email" placeholder="emailingizni kiriting" name="email">
+                <textarea rows="10" placeholder="Xabaringizni kiriting" name="message"></textarea>
+                <div class="half-row contact-firstname">
+                    <input type="text" placeholder="Ismingizni kiriting" name="firstname">
+                </div>
+               <div class="half-row contact-email">
+                    <input type="email" placeholder="emailingizni kiriting" name="email">
+               </div>
                 <input type="text" placeholder="Xat mazmuni" name="subject">
-                <button type="submit" class="button">Xabar Jo'natish</button>
+                <button type="submit" class="button send">Xabar Jo'natish</button>
             </form>
         </section>
     </div>

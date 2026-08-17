@@ -5,7 +5,7 @@ textarea, input{
     width:100%;
     margin-top:10px;
     margin-bottom:10px;
-    padding:10px;
+    padding:15px;
     border:1px solid #f0e9ff;
     border-radius:5px;
     font-size:13px;
@@ -16,4 +16,18 @@ textarea, input{
 textarea:focus,
 input:focus{
     outline:0;
+}
+.half-row{
+    width:50%;
+    float:left;
+    box-sizing: border-box;
+}
+.contact-firstname{
+    padding-right:20px;
+}
+.contact-email{
+    padding-left:20px;
+}
+.send{
+    margin-top:30px;
 }
