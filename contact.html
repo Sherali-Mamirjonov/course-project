@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/main.css">
     <link rel="stylesheet" href="./CSS/shared.css">
+    <link rel="stylesheet" href="./CSS/contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Portfolio</title>
 </head>
@@ -45,6 +45,22 @@
           </div>
      </header>
     <!--/Header section-->
+
+    <!--Contact section-->
+    <div class="conteiner">
+        <section class="contact">
+            <div class="section-title">
+                Men bilan bog'laning
+            </div>
+            <form action="/server.php" method="GET">
+                <textarea rows="20" placeholder="Xabaringizni kiriting" name="message"></textarea>
+                <input type="text" placeholder="Ismingizni kiriting" name="firstname">
+                <input type="email" placeholder="emailingizni kiriting" name="email">
+                <input type="text" placeholder="Xat mazmuni" name="subject">
+                <button type="submit" class="button">Xabar Jo'natish</button>
+            </form>
+        </section>
+    </div>
 
     <!--Footer section-->
     <footer>
