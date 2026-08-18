@@ -7,7 +7,7 @@
     min-height:890px;
 }
 .main-section{
-    padding:100px 30px;
+    padding:7.5rem 1.87rem;
 }
 .main-section > div{
     width:50%;
@@ -17,14 +17,14 @@
     text-align:right;
 }
 .main-section__welcome{
-    font-size:16px;
+    font-size:1rem;
     font-weight:400;
-    margin-bottom:20px;
+    margin-bottom:1.25rem;
     letter-spacing: 2px;
     color:#797979;
 }
 .main-section__introduction{
-    margin-top:20px;
+    margin-top:1.25rem;
     font-size:60px;
     font-weight:500;
     color:#05364E;
