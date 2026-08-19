@@ -93,12 +93,16 @@ body{
 }
 /*Footer section*/
 .footer{
-    padding:3.12rem;
+    margin-top:50px;
+    padding:6.25rem 0;
     background-color:#021017;
     text-align:center;
 }
 .footer-brand img{
-    width:128px;
+    width:64px;
+}
+.footer-navigation__items{
+    margin-bottom:20px;
 }
 .footer-navigation__item{
     display:inline-block;
@@ -122,4 +126,10 @@ body{
 }
 .footer-social a{
     color:#021017;
+}
+.footer-social:hover{
+    background:linear-gradient(90deg,#1345e6,#ed239f 100%);
+}
+.footer-social:hover i{
+    color:#ffffff;
 }
