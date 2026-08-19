@@ -323,6 +323,12 @@
     .portfolio-item3{
         position:static;
     }
+    .portfolio-item2{
+        top:600px;
+    }
+    .portfolio-item3{
+        margin-top:230px;
+    }
     .partners{
         padding:1.5rem 0;
     }
