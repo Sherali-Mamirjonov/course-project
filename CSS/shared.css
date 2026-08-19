@@ -91,3 +91,35 @@ body{
 .main-navigation__item.active a{
     color: #efb6df;
 }
+/*Footer section*/
+.footer{
+    padding:3.12rem;
+    background-color:#021017;
+    text-align:center;
+}
+.footer-brand img{
+    width:128px;
+}
+.footer-navigation__item{
+    display:inline-block;
+    padding:0 10px;
+}
+.footer-navigation__item a{
+    text-decoration:none;
+    color:#FFFFFF;
+}
+.footer-social{
+    display:inline-block;
+    width:45px;
+    height:45px;
+    line-height:45px;
+    text-align:center;
+    background-color:#ffffff;
+    border-radius:36px;
+    color:#05364d;
+    font-size:1rem;
+    margin-right:12px;
+}
+.footer-social a{
+    color:#021017;
+}
