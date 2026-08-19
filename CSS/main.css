@@ -13,7 +13,7 @@
     width:50%;
     float:left;
 }
-.main-section__image{
+.main-header__image{
     text-align:right;
 }
 .main-section__welcome{
@@ -265,4 +265,47 @@
 .partner{
     display:inline-block;
     padding:0 1.87rem;
+}
+@media only screen and (max-width:767px){
+    .main-banner{
+        background:none;
+        min-height:auto;
+    }
+    .main-header__image{
+        display:none;
+    }
+    .main-section__action{
+        display:none;
+    }
+    .main-section > div{
+        width:100%;
+    }
+    .statistics__item{
+        width:100%;
+        margin-bottom:20px;
+    }
+    .about-me{
+        padding:1.5rem 0;
+    }
+    .about-me > div{
+        width:100%;
+    }
+    .about-me__image img{
+        display:none;
+    }
+    .services{
+        padding:1.5rem 0;
+    }
+    .service-card{
+        width:100%;
+        margin-right:0;
+        margin-bottom:20px;
+    }
+    .clients{
+        padding:1.5rem 0;
+    }
+    .client-item > div{
+        width:100%;
+        float:none;
+    }
 }
