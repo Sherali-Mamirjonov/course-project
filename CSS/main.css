@@ -280,9 +280,14 @@
     .main-section > div{
         width:100%;
     }
+    .main-section__introduction{
+        font-size:3rem;
+    }
     .statistics__item{
         width:100%;
         margin-bottom:20px;
+        margin-right:0;
+        box-sizing: border-box;
     }
     .about-me{
         padding:1.5rem 0;
@@ -307,5 +312,24 @@
     .client-item > div{
         width:100%;
         float:none;
+    }
+    .portfolio{
+        padding:1.5rem 0;
+    }
+    .portfolio-item{
+        width:100%;
+    }
+    .portoflio-item2,
+    .portfolio-item3{
+        position:static;
+    }
+    .partners{
+        padding:1.5rem 0;
+    }
+    .partner{
+        display:block;
+        padding:0;
+        text-align:center;
+        margin-bottom:10px;
     }
 }

@@ -135,9 +135,12 @@ body{
 }
 @media only screen and (max-width: 767px){
     .conteiner{
-        width:96%;
+        width:92%;
     }
     .main-navigation{
+        display:none;
+    }
+    .footer-navigation{
         display:none;
     }
 }
