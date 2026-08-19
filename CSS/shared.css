@@ -133,9 +133,10 @@ body{
 .footer-social:hover i{
     color:#ffffff;
 }
-@media only screen and (max-width: 767px){
+
+@media only screen and (max-width: 991px){
     .conteiner{
-        width:92%;
+        width:90%;
     }
     .main-navigation{
         display:none;
@@ -143,4 +144,11 @@ body{
     .footer-navigation{
         display:none;
     }
+}
+
+@media only screen and (max-width: 767px){
+    .conteiner{
+        width:92%;
+    }
+    
 }

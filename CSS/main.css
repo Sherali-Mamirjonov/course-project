@@ -266,28 +266,17 @@
     display:inline-block;
     padding:0 1.87rem;
 }
-@media only screen and (max-width:767px){
-    .main-banner{
-        background:none;
-        min-height:auto;
-    }
+
+@media only screen and (max-width: 991px){
     .main-header__image{
-        display:none;
-    }
-    .main-section__action{
         display:none;
     }
     .main-section > div{
         width:100%;
     }
-    .main-section__introduction{
-        font-size:3rem;
-    }
-    .statistics__item{
-        width:100%;
-        margin-bottom:20px;
-        margin-right:0;
-        box-sizing: border-box;
+    .statistics{
+        padding:1rem;
+        text-align:center;
     }
     .about-me{
         padding:1.5rem 0;
@@ -302,16 +291,48 @@
         padding:1.5rem 0;
     }
     .service-card{
-        width:100%;
-        margin-right:0;
+        width:45%;
         margin-bottom:20px;
     }
-    .clients{
+     .clients{
         padding:1.5rem 0;
     }
     .client-item > div{
         width:100%;
         float:none;
+    }
+    .partners{
+        padding:1.5rem 0;
+    }
+    .partner{
+        display:block;
+        padding:0;
+        text-align:center;
+        margin-bottom:10px;
+    }
+}
+
+@media only screen and (max-width:767px){
+    .main-banner{
+        background:none;
+        min-height:auto;
+    }
+    .main-section__action{
+        display:none;
+    }
+    .main-section__introduction{
+        font-size:3rem;
+    }
+    .statistics__item{
+        width:100%;
+        margin-bottom:20px;
+        margin-right:0;
+        box-sizing: border-box;
+    }
+    .service-card{
+        width:100%;
+        margin-right:0;
+        margin-bottom:20px;
     }
     .portfolio{
         padding:1.5rem 0;
@@ -328,14 +349,5 @@
     }
     .portfolio-item3{
         margin-top:230px;
-    }
-    .partners{
-        padding:1.5rem 0;
-    }
-    .partner{
-        display:block;
-        padding:0;
-        text-align:center;
-        margin-bottom:10px;
     }
 }
