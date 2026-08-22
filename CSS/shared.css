@@ -280,6 +280,9 @@ body{
     filter:blur(4px);
     border-radius: 4px;
 }
+a{
+    transition:all 0.3s ease-in-out;
+}
 .button{
     border:none;
     background: linear-gradient(to right, #1345e6 0%, #ed239f 51%, #1345e6 100%);
